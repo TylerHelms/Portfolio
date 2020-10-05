@@ -1,0 +1,10 @@
+.top-image {
+    background-image: url(./assets/photo-1601807136805-b16d875c26ba.jpeg);
+    height: 900px;
+    background-size: cover;
+}
+
+.jumboton {
+    opacity: 500;
+}
+
