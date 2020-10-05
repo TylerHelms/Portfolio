@@ -1,10 +1,126 @@
 .top-image {
-    background-image: url(./assets/photo-1601807136805-b16d875c26ba.jpeg);
-    height: 900px;
+    background-image: url('./assets/Organize-Workspace.png');
+    height: 790px;
     background-size: cover;
+    align-self: center;
 }
 
-.jumboton {
-    opacity: 500;
+.container {
+    text-align: center;
 }
+
+ .navbar {
+    position: sticky;
+}
+
+.aboutMeSection { 
+    display: flex;
+    background-color: tan;
+    height: 47em;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+    
+}
+
+.aboutMeHead {
+    text-align: center;
+    color: black;
+    margin-top: 40%;
+}
+
+
+
+.aboutMeText {
+    max-width: 25%;
+    text-align: center;
+   margin-left: 20%;
+   height: 60%;
+  width: 55%;
+   margin-left: 50%
+}
+
+.aboutImg{
+    height: 37%;
+    border-radius: 10% 10%;
+    margin-left: 25%;
+}
+
+.button{
+    background-color: transparent;
+    border-radius: 10% 10%;
+    width: 150%;
+    opacity: 50%;
+}
+
+
+.portfolio {
+    text-align: center;
+    height: 50em;
+}
+
+.contact {
+    text-align: center;
+    color: black;
+}
+.formspree-box {
+    background-image: url('./assets/pexels-photo.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    height: 500px;
+    margin-left: 1%;
+    
+}
+
+#fs-frm{
+    padding: 1em;
+    color: white;
+}
+
+#fs-frm-inputs{
+    flex-direction: column;
+    width: min-content;
+
+}
+
+#full-name {
+    background-color:tan;
+    
+    border-color: tan;
+    border-radius: 10px 10px; 
+}
+
+#email-address {
+    background-color: tan;
+    border-color: tan;
+    border-radius: 10px 10px; 
+}
+
+#message{
+    background-color: tan;
+    height: 2em;
+    border-color: tan;
+    border-radius: 10px 10px; 
+}
+
+#submitButton {
+    background-color: transparent;
+    color: tan;
+    border-color: tan;
+    border-radius: 10px 10px; 
+}
+
+.footer {
+    background-color: tan;
+    height: 80px;
+    padding: 2%;
+    text-align: center;
+    color: white;
+}
+
+#footerText {
+    opacity: 70%;
+}
+
 

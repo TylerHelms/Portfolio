@@ -1,46 +1,140 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <link rel="stylesheet" href="styles.css" />
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="styles.css">
-
-<section>
+  <section>
     <div class="top-image">
+      <div class="navbar">
         <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">About Me</a></li>
-                <li class="breadcrumb-item"><a href="#">Portfolio</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Contact</li>
-            </ol>
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">About Me</a></li>
+            <li class="breadcrumb-item"><a href="#">Portfolio</a></li>
+            <li class="breadcrumb-item"><a href="#">Contact</a></li>
+          </ol>
         </nav>
-        <div class="jumbotron">
-            <div class="container">
-                <h1 class="display-4">Tyler Helms</h1>
-                <p class="lead">Developer in training</p>
-            </div>
+      </div>
+      <div class="jumbotron" style="background-color: transparent">
+        <div class="container">
+          <h1 class="display-4">Tyler Helms</h1>
+          <p class="lead">A Developing Developer</p>
         </div>
-    </div>    
+      </div>
+    </div>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
 
-    <title>Hello, world!</title>
-</section>
+    <title>Tyler Helms' Portfolio</title>
+  </section>
   <body>
-<section>
-    <h1>About Me</h1>
-</section>
-<section>
-    Portfolio
-</section>
-<section>
-    Contact/Formspree
-</section>
+    <section>
+      <div class="aboutMeSection">
+        <div>
+          <h2 class="aboutMeHead">About Me:</h2>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="aboutMeText">
+              "Hello, my name is Tyler Helms and I am an ever-learning
+              developer. I have done many different things in the past. I've
+              been a soldier, a claims adjuster, as well as a construction
+              scaffolder. I am driven to complete any mission I set before
+              myself in a timely manner and to the best of my ability. Once I
+              graduate from Eleven Fifty Academy I will seek a long term career
+              in the industry.
+            </p>
+          </div>
+          <div>
+              <button class="button">
+                  Resume
+              </button>
+          </div>
+          <div> 
+            <img src="./assets/Screen Shot 2020-10-05 at 3.03.20 PM.png" class="aboutImg"/>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="portfolio">
+        <h3>Portfolio</h3>
+      </div>
+    </section>
+    <section>
+      <div class="formspree-box">
+        <h3 class="contact">Contact Me</h3>
+        <form
+          id="fs-frm"
+          name="simple-contact-form"
+          accept-charset="utf-8"
+          action="https://formspree.io/f/{tshelms92@gmail.com}"
+          method="post"
+        >
+          <fieldset id="fs-frm-inputs">
+            <label for="full-name">Full Name</label>
+            <input
+              type="text"
+              name="name"
+              id="full-name"
+              placeholder="First & Last Name Here..."
+              required=""
+            />
+            <label for="email-address">Email Address</label>
+            <input
+              type="email"
+              name="_replyto"
+              id="email-address"
+              placeholder="Your Email Here"
+              required=""
+            />
+            <label for="message">Message</label>
+            <textarea
+              rows="5"
+              name="message"
+              id="message"
+              placeholder="Enter your message here..."
+              required=""
+            ></textarea>
+            <input
+              type="hidden"
+              name="_subject"
+              id="email-subject"
+              value="Contact Form Submission"
+            />
+          </fieldset>
+          <input id="submitButton" type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <p id="footerText">© 2020 Copyright: Tyler Helms</p>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
