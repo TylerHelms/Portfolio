@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <meta charset="utf-8" />
+<head>
+<meta charset="utf-8" />
   <meta
     name="viewport"
     content="width=device-width, initial-scale=1, shrink-to-fit=no"
   />
   <link rel="stylesheet" href="styles.css" />
-
+ <!-- Bootstrap CSS -->
+ <link
+ rel="stylesheet"
+ href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+ integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+ crossorigin="anonymous"
+/>
+<title>Tyler Helms' Portfolio</title>
+</head>  
+<body>
   <section>
     <div class="top-image">
-      <div class="navbar">
+      <div class="navbar sticky-top">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">About Me</a></li>
@@ -25,19 +35,9 @@
         </div>
       </div>
     </div>
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-
-    <title>Tyler Helms' Portfolio</title>
   </section>
-  <body>
-    <section>
-      <div class="aboutMeSection">
+    <section class="aboutMeSection">
+      <div class="container-sm">
         <div>
           <h2 class="aboutMeHead">About Me:</h2>
         </div>
@@ -50,15 +50,13 @@
               scaffolder. I am driven to complete any mission I set before
               myself in a timely manner and to the best of my ability. Once I
               graduate from Eleven Fifty Academy I will seek a long term career
-              in the industry.
+              in the industry. Click the button below to view my resume.
             </p>
+            <button class="button">
+              Resume
+            </button>
           </div>
-          <div>
-              <button class="button">
-                  Resume
-              </button>
-          </div>
-          <div> 
+          <div class="col"> 
             <img src="./assets/Screen Shot 2020-10-05 at 3.03.20 PM.png" class="aboutImg"/>
           </div>
         </div>
@@ -67,7 +65,13 @@
     <section>
       <div class="portfolio">
         <h3>Portfolio</h3>
+        <div class="thumbnails">
+          <img src="./assets/Screen Shot 2020-10-05 at 8.03.49 PM.png" class="cssCreature">
+          <img src="./assets/Screen Shot 2020-10-05 at 8.07.48 PM.png" class="catFact">
+          <img src="./assets/Screen Shot 2020-10-05 at 9.52.45 PM.png" class="staticLayout">
+        </div>
       </div>
+
     </section>
     <section>
       <div class="formspree-box">
@@ -94,7 +98,7 @@
               name="_replyto"
               id="email-address"
               placeholder="Your Email Here"
-              required=""
+              required=""≠
             />
             <label for="message">Message</label>
             <textarea
