@@ -19,8 +19,6 @@
     height: 47em;
     justify-content: space-evenly;
     flex-direction: column;
-    
-    
 }
 
 .aboutMeHead {
@@ -44,7 +42,8 @@
 
 .portfolio {
     text-align: center;
-    height: 40em;
+    height: 50em;
+    background-color: rgb(167, 149, 123);
 }
 
 .contact {
@@ -56,9 +55,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     flex-direction: column;
-    height: 500px;
-    
-    
+    height: 500px; 
+}
+
+.col{
+    height: 140vh;
 }
 
 #fs-frm{
@@ -74,7 +75,6 @@
 
 #full-name {
     background-color:tan;
-    
     border-color: tan;
     border-radius: 10px 10px; 
 }
@@ -112,6 +112,10 @@
 }
 
 /* Portfolio section */
+.thumbnails {
+    margin-top: 290px;
+}
+
 .cssCreature {
     height: 30vh;
     width: 50vh;
@@ -128,3 +132,6 @@
 }
 
 
+.whale{
+    height: 30vh;
+}
