@@ -13,22 +13,30 @@
     position: sticky;
 }
 
+/* ABOUT ME SECTION */
+
 .aboutMeSection { 
     display: flex;
     background-color: tan;
-    height: 47em;
+    height: 67em;
     justify-content: space-evenly;
     flex-direction: column;
+    
 }
 
 .aboutMeHead {
     text-align: center;
     color: black;
-    margin-top: 40%;
+    padding: 10px;
+   
+}
+
+.aboutMeText {
+     opacity: 75%; 
 }
 
 .aboutImg{
-    height: 37%;
+    height: 50%;
     border-radius: 10% 10%;
 }
 
@@ -39,23 +47,55 @@
     opacity: 50%;
 }
 
-
-.portfolio {
-    text-align: center;
-    height: 50em;
-    background-color: rgb(167, 149, 123);
+.skill-logos {
+    margin-top: 15vh;
 }
 
-.contact {
-    text-align: center;
+#html-logo {
+    height: 10vh;
+    border-radius: 30px 30px;
+}
+
+#github-logo {
+    height: 10vh;
+    border-radius: 30px 30px;
+}
+
+#bootstrap-logo {
+    height: 10vh;
+    border-radius: 30px 30px;
+}
+
+#firebase-logo{
+    height: 10vh;
+    width: 70px;
+    border-radius: 30px 30px;
+}
+
+#CSS-logo{
+    height: 10vh;
+    width: 70px;
+    border-radius: 30px 30px;
+}
+
+.resume {
     color: black;
+    opacity: 70%;
+    text-decoration: underline;
+}
+
+/* FORMSPREE */
+
+.contact {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .formspree-box {
     background-image: url('./assets/pexels-photo.webp');
     background-size: cover;
     background-repeat: no-repeat;
     flex-direction: column;
-    height: 500px; 
+    height: 640px; 
 }
 
 .col{
@@ -112,21 +152,35 @@
 }
 
 /* Portfolio section */
+
+.portfolio {
+    text-align: center;
+    height: 50em;
+    background-color: rgb(167, 149, 123);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .thumbnails {
-    margin-top: 290px;
+    margin-top: 90px;
 }
 
 .cssCreature {
+    border: solid grey;
+    border-radius: 20px 20px;
     height: 30vh;
     width: 50vh;
 }
 
 .catFact {
+    border: solid grey;
+    border-radius: 20px 20px;
     height: 30vh;
     width: 50vh; 
 }
 
 .staticLayout {
+    border: solid grey;
+    border-radius: 20px 20px;
     height: 30vh;
     width: 50vh; 
 }
@@ -134,4 +188,18 @@
 
 .whale{
     height: 30vh;
+}
+
+.gif {
+    border: solid grey;
+    border-radius: 20px 20px;
+    height: 30vh;
+    width: 50vh;
+}
+
+.container-sm {
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2.5%;
+    
 }

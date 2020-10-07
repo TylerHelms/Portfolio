@@ -22,9 +22,9 @@
       <div class="navbar sticky-top">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">About Me</a></li>
-            <li class="breadcrumb-item"><a href="#">Portfolio</a></li>
-            <li class="breadcrumb-item"><a href="#">Contact</a></li>
+            <li class="breadcrumb-item"><a href="#aboutMe">About Me</a></li>
+            <li class="breadcrumb-item"><a href="#portfolio">Portfolio</a></li>
+            <li class="breadcrumb-item"><a href="#fs-frm">Contact</a></li>
           </ol>
         </nav>
       </div>
@@ -36,13 +36,14 @@
       </div>
     </div>
   </section>
-    <section class="aboutMeSection">
+    <section class="aboutMeSection" id="aboutMe">
       <div class="container-sm">
         <div>
           <h2 class="aboutMeHead">About Me:</h2>
         </div>
         <div class="row">
           <div class="col">
+            <hr>
             <p class="aboutMeText">
               Hello, my name is Tyler Helms and I am an ever-learning
               developer. I have done many different things in the past. I've
@@ -50,47 +51,61 @@
               scaffolder. I am driven to complete any mission I set before
               myself in a timely manner and to the best of my ability. Once I
               graduate from Eleven Fifty Academy I will seek a long term career
-              in the industry. 
+              in the industry. Click the button below to view my resume. 
             </p>
-            <br>
-            <p>
-              
-            </p>
-            <button class="button">
-              <a href="./assets/Tyler Helms' Resume updated 1024 (1).docx">
-              </a>
+              <a href="./assets/Tyler Helms' Resume updated 1024.pdf" class="resume">
               Resume
-            </button>
+            </a>
+            <hr>
+            <div class="skill-logos">
+              <h3>
+                Skillset: 
+              </h3>
+              <hr>
+              <img src="./assets/HTML-logo.png" id="html-logo">
+              <img src="./assets/CSS-logo.png" id="CSS-logo">
+              <img src="./assets/github-logo.png" id="github-logo">
+              <img src="./assets/bootstrap-img.png" id="bootstrap-logo">
+              <img src="./assets/firebase-logo.png" id="firebase-logo">
+              <hr>
+            </div>
           </div>
           <div class="col"> 
             <img src="./assets/headshot.png" class="aboutImg"/>
           </div>
         </div>
       </div>
+      <div>
+      </div>
     </section>
     <section>
-      <div class="portfolio">
-        <h3>Portfolio</h3>
-        <p>
-          Portfolio text
+      <div class="portfolio" id="portfolio">
+        <h1>Portfolio</h1>
+        <hr>
+        <p class="container-sm">
+          As a graduate of the Web Development Learning Program at Eleven Fifty Academy, I am able to utitlize  HTML, CSS, and JavaScript. I also have experience with GitHub and Firebase deployment. I am also familiar with the practices of the Scrum and Agile workflow methodology. Below you will find some examples of my work thus far. 
         </p>
+        <hr>
         <div class="thumbnails">
           <a  href="https://codepen.io/tyhelms/pen/xxVXPdL" target="_blank">
-            <img src="./assets/whale.png" class="cssCreature">
+            <img src="./assets/whale.png" class="cssCreature" >
           </a>
           <a href="https://tylerhelms.github.io/API-Project-1/">
             <img src="./assets/cat.png" class="catFact">
           </a>
           <a href="https://tylerhelms.github.io/Static-Layout-Project/">
             <img src="./assets/hulu.png" class="staticLayout">
-          </a> 
+          </a>
+          <a href=" https://tylerhelms.github.io/API-Project-2/">
+          <img src="assets/GIF-API2.png" class="gif">
+          </a>
         </div>
       </div>
 
     </section>
     <section>
       <div class="formspree-box">
-        <h3 class="contact">Contact Me</h3>
+        <h1 class="contact">Contact Me:</h1>
         <form
           id="fs-frm"
           name="simple-contact-form"
