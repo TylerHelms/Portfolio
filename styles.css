@@ -18,7 +18,7 @@
 .aboutMeSection { 
     display: flex;
     background-color: tan;
-    height: 67em;
+    height: 80em;
     justify-content: space-evenly;
     flex-direction: column;
     
@@ -155,7 +155,7 @@
 
 .portfolio {
     text-align: center;
-    height: 50em;
+    height: 60em;
     background-color: rgb(167, 149, 123);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
